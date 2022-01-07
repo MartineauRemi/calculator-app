@@ -1,11 +1,14 @@
+import ThemeProvider from "./contexts/ThemeProvider";
 import GlobalStyle from "./GlobalStyle";
 
 function App() {
   return (
-    <div className="App">
-      <GlobalStyle />
-      <h1>Hello world</h1>
-    </div>
+    <ThemeProvider>
+        <div className="App">
+          <GlobalStyle />
+          <h1>Hello world</h1>
+        </div>
+    </ThemeProvider>
   );
 }
 
