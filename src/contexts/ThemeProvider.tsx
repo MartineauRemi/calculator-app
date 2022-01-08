@@ -9,12 +9,12 @@ interface IThemeContextProps {
 
 //variables defined in 'src/GlobalStyle.js'
 export enum MainColors{
-    Red = 'var(--red-primary)',
-    Orange = 'var(--orange-primary)',
-    Yellow = 'var(--yellow-primary)',
-    Green = 'var(--green-primary)',
-    Blue = 'var(--blue-primary)',
-    Purple = 'var(--purple-primary)'
+    Red = 'red',
+    Orange = 'orange',
+    Yellow = 'yellow',
+    Green = 'green',
+    Blue = 'blue',
+    Purple = 'purple'
 }
 
 const ThemeContext = React.createContext<IThemeContextProps>({} as IThemeContextProps)
@@ -30,6 +30,7 @@ export default function ThemeProvider({children}: any): ReactElement {
         mainColor: mainColor,
         setMainColor: setMainColor
     }
+
     return (
         <ThemeContext.Provider value={providerValue}>
             {children}
