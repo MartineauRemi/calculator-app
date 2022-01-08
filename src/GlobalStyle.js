@@ -17,18 +17,30 @@ const GlobalStyle = createGlobalStyle`
         --dark-ternary: #222121;
         --dark-quaternary: #151515;
         --dark-quinary: #111111;
+        --dark-6: #323232;
 
         --light-primary: #F8F8FB;
         --light-secondary: #F9FAFE;
         --light-ternary: #DFE3FA;
+        --light-quaternary: #EDEEF7;
 
+        --red-primary: #EC5757;
+        --red-secondary: #e96b6b;
+
+        --orange-primary: #FF8F00;
+        --orange-secondary: #fbbf70;
+
+        --yellow-primary: #ffe400;
+        --yellow-secondary: #fff388;
 
         --green-primary: #1FDE86;
-        --red-primary: #EC5757;
-        --orange-primary: #FF8F00;
-        --yellow-primary: #ffe400;
+        --green-secondary: #47fba7;
+
         --blue-primary: #577BC1;
+        --blue-secondary: #7396dd;
+
         --purple-primary: #7C5DFA;
+        --purple-secondary: #9f86ff;
     }
 `
 
