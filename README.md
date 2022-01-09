@@ -26,6 +26,9 @@ The user has the possibility to :
 - toggle between light & dark mode
 - use the keyboard to add digits, perform operations, undo / delete inputs
 
+![Settings icon](./settings-icon.png)
+- Clicking on this icon opens the customization menu. It contains the theme toggle button and the color customization menu
+
 This application is fully responsive, feel free to try it on a smaller device.
 
 ## Author
