@@ -48,9 +48,10 @@ export default function Keyboard({dispatch, setCustomMenuActive}: Props): ReactE
 
     return (
         <Wrapper className='keyboard' darkTheme={darkTheme}>
-            <CalculatorButton darkTheme={darkTheme} color={mainColor} onClick={onClickSettingsButton}><IoMdSettings /></CalculatorButton>
+            <CalculatorButton
+                darkTheme={darkTheme} color={mainColor} onClick={onClickSettingsButton} aria-label='settings'><IoMdSettings /></CalculatorButton>
             <CalculatorButton darkTheme={darkTheme} color={mainColor} onClick={onClickClearAllButton}>CA</CalculatorButton>
-            <CalculatorButton darkTheme={darkTheme} color={mainColor} onClick={onClickDeleteButton}><FiDelete /></CalculatorButton>
+            <CalculatorButton darkTheme={darkTheme} color={mainColor} onClick={onClickDeleteButton} aria-label='delete'><FiDelete /></CalculatorButton>
             <OperatorButton operator={CALCULATOR_OPERATORS.ADDITION} dispatch={dispatch} />
 
             <DigitButton digit='7' dispatch={dispatch} />
