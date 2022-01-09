@@ -1,3 +1,38 @@
+# Calculator App 
+
+You can check the app at this URL:
+[https://martineauremi.github.io/calculator-app](https://martineauremi.github.io/calculator-app)
+
+![Calculator App](calculator-app-screenshot.png)
+
+## Technologies
+
+I created this application from scratch using the following technologies:
+- React
+- Typescript
+- styled-components
+- gsap
+
+## Functionalities
+
+The user has the possibility to :
+- perform basic operations such as
+    - addition
+    - substraction
+    - multiplication
+    - division
+- undo a digit or delete the entire input
+- custom the calculator by changing it's main color
+- toggle between light & dark mode
+- use the keyboard to add digits, perform operations, undo / delete inputs
+
+This application is fully responsive, feel free to try it on a smaller device.
+
+## Author
+
+- Portfolio - [Rémi Martineau](https://martineauremi.github.io/portfolio/)
+- Linkedin - [Rémi Martineau](https://www.linkedin.com/in/r%C3%A9mi-martineau)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
